@@ -1,4 +1,4 @@
-This is my "Random Famous Quote Generator" project for Origin Code Academy's "Hackathon."
+This is my "Thesaurus" project.
 This project was completed using React and Axios.
 
 After downloading the project, run:
