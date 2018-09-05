@@ -1,0 +1,119 @@
+
+
+body {
+  background: url('https://www.thoughtco.com/thmb/SwwefwiZ3AWsgQMQopDKDGqrYWQ=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/Thesaurus-58c1cb6b3df78c353c8ffd80.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#title{
+  color: black;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+#h5{
+  color: black;
+  background-color: white;
+  margin-top: 0px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#search{
+  margin-bottom: 15px;
+}
+
+#none{
+  margin-left: 200px;
+}
+
+hr{
+  border-color: white;
+}
+
+div{
+  color: white;
+}
+
+div:empty {
+  display: none;
+}
+
+#adj{
+  color: black;
+}
+
+#author{
+  background-color: white;
+  color:black;
+  padding: 5px;
+  text-align: center;
+  font-size: 32px;
+
+}
+
+#info2{
+  margin-right: -0px;
+  padding-left: 52px;
+
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+}
+
+#quote{
+  background-color: white;
+  color:black;
+  padding-top: 35px;
+  padding-left:0px;
+ text-align: center;
+ margin-left: 0px;
+
+}
+
+
+img{
+  max-width: 200px;
+
+}
+
+
+#box,
+#box1,
+#box2,
+#box3 {
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#box {
+  padding-top: 10px;
+}
+
+#box3 {
+  padding-bottom: 10px;
+}
+
+#button {
+  background-color: lightgray;
+  padding: 5px;
+}
+
+button{
+  background-color: blue;
+  color:white;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
