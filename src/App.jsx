@@ -167,7 +167,7 @@ class App extends Component {
                   <input className='input-group-text col-lg-12' id='search' onChange={this.onChange} name='searchTerm'></input>
                   <div id='button'>
                     <button className="btn col-lg-12 create-todo" onClick={this.generateDef}
-                    >Generate</button>
+                    >Search</button>
                   </div>
                 </form>
               </div>
