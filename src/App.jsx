@@ -97,9 +97,6 @@ class App extends Component {
     });
   }
 
-
-
-
   render() {
 
     if (this.state.noun == null) {
