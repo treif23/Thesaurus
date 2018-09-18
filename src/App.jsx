@@ -68,7 +68,6 @@ class App extends Component {
         noun = (data.noun.syn).slice(0, 5);
         noun1 = noun.join(', ')
       }
-      console.log(noun1, 'what up');
 
       if (data.verb) {
         verb = (data.verb.syn).slice(0, 5);
@@ -77,8 +76,6 @@ class App extends Component {
 
       var synonyms = adj.concat(noun, verb).join(', ');
 
-
-      //const quote = res.data[0].quote;
 
       this.setState({ verb1:verb1, noun1: noun1, noun : noun, adj1:adj1, adj : adj, verb : verb, searchTerm1: searchTerm });
       axios({
