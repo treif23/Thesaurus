@@ -50,7 +50,6 @@ class App extends Component {
         'accept': 'application/json'
       }
     }).then((res) => {
-      console.log(res.data, 'hello');
       let adj = [];
       let adj1=[];
       let noun = [];
